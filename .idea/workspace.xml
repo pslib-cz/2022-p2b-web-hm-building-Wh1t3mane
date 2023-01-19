@@ -1,7 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b0e2540-55fb-4c93-8a09-0ba1024513e9" name="Changes" comment="Start" />
+    <list default="true" id="7b0e2540-55fb-4c93-8a09-0ba1024513e9" name="Changes" comment="Start">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-p2b-web-hm-building-Wh1t3mane/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-p2b-web-hm-building-Wh1t3mane/.idea/Github.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Github.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-p2b-web-hm-building-Wh1t3mane/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-p2b-web-hm-building-Wh1t3mane/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-p2b-web-hm-building-Wh1t3mane/Readme" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-p2b-web-hm-building-Wh1t3mane/css/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-p2b-web-hm-building-Wh1t3mane/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-p2b-web-hm-building-Wh1t3mane/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-p2b-web-hm-building-Wh1t3mane/media/background-CTAblock-4460w.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/background-CTAblock-4460w.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-p2b-web-hm-building-Wh1t3mane/media/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/media/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-p2b-web-hm-building-Wh1t3mane/media/mapa.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/mapa.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-p2b-web-hm-building-Wh1t3mane/media/pageheader-1920w.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/pageheader-1920w.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-p2b-web-hm-building-Wh1t3mane/media/pageheader-3100w.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/pageheader-3100w.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-p2b-web-hm-building-Wh1t3mane/media/reference/hasicska-zbrojnice/reference-hz-01.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/media/reference/hasicska-zbrojnice/reference-hz-01.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-p2b-web-hm-building-Wh1t3mane/media/reference/hasicska-zbrojnice/reference-hz-02.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/media/reference/hasicska-zbrojnice/reference-hz-02.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-p2b-web-hm-building-Wh1t3mane/media/reference/hasicska-zbrojnice/reference-hz-03.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/media/reference/hasicska-zbrojnice/reference-hz-03.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-p2b-web-hm-building-Wh1t3mane/media/reference/hasicska-zbrojnice/reference-hz-04.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/media/reference/hasicska-zbrojnice/reference-hz-04.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-p2b-web-hm-building-Wh1t3mane/media/reference/hasicska-zbrojnice/reference-hz-05.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/media/reference/hasicska-zbrojnice/reference-hz-05.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-p2b-web-hm-building-Wh1t3mane/media/reference/hasicska-zbrojnice/reference-hz-06.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/media/reference/hasicska-zbrojnice/reference-hz-06.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-p2b-web-hm-building-Wh1t3mane/media/reference/hasicska-zbrojnice/reference-hz-07.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/media/reference/hasicska-zbrojnice/reference-hz-07.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-p2b-web-hm-building-Wh1t3mane/media/reference/hasicska-zbrojnice/reference-hz-08.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/media/reference/hasicska-zbrojnice/reference-hz-08.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-p2b-web-hm-building-Wh1t3mane/media/reference/hasicska-zbrojnice/reference-hz-09.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/media/reference/hasicska-zbrojnice/reference-hz-09.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-p2b-web-hm-building-Wh1t3mane/media/reference/hasicska-zbrojnice/reference-hz-10.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/media/reference/hasicska-zbrojnice/reference-hz-10.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-p2b-web-hm-building-Wh1t3mane/media/reference/hasicska-zbrojnice/reference-hz-11.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/media/reference/hasicska-zbrojnice/reference-hz-11.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-p2b-web-hm-building-Wh1t3mane/media/reference/hasicska-zbrojnice/reference-hz-12.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/media/reference/hasicska-zbrojnice/reference-hz-12.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-p2b-web-hm-building-Wh1t3mane/media/reference/hasicska-zbrojnice/reference-hz-14.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/media/reference/hasicska-zbrojnice/reference-hz-14.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-p2b-web-hm-building-Wh1t3mane/media/reference/hasicska-zbrojnice/reference-hz-15.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/media/reference/hasicska-zbrojnice/reference-hz-15.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-p2b-web-hm-building-Wh1t3mane/media/reference/hasicska-zbrojnice/reference-hz-16.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/media/reference/hasicska-zbrojnice/reference-hz-16.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-p2b-web-hm-building-Wh1t3mane/media/reference/hasicska-zbrojnice/reference-hz-17.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/media/reference/hasicska-zbrojnice/reference-hz-17.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-p2b-web-hm-building-Wh1t3mane/media/reference/hasicska-zbrojnice/reference-hz-18.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/media/reference/hasicska-zbrojnice/reference-hz-18.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-p2b-web-hm-building-Wh1t3mane/media/reference/hasicska-zbrojnice/reference-hz-last.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/media/reference/hasicska-zbrojnice/reference-hz-last.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-p2b-web-hm-building-Wh1t3mane/media/reference/plochy-restyl/reference-restyl-01.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/media/reference/plochy-restyl/reference-restyl-01.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-p2b-web-hm-building-Wh1t3mane/media/reference/plochy-restyl/reference-restyl-02.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/media/reference/plochy-restyl/reference-restyl-02.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-p2b-web-hm-building-Wh1t3mane/media/reference/plochy-restyl/reference-restyl-03.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/media/reference/plochy-restyl/reference-restyl-03.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-p2b-web-hm-building-Wh1t3mane/media/reference/plochy-restyl/reference-restyl-04.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/media/reference/plochy-restyl/reference-restyl-04.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-p2b-web-hm-building-Wh1t3mane/media/reference/pradelna/reference-pradelna-01.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/media/reference/pradelna/reference-pradelna-01.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-p2b-web-hm-building-Wh1t3mane/media/reference/pradelna/reference-pradelna-02.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/media/reference/pradelna/reference-pradelna-02.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-p2b-web-hm-building-Wh1t3mane/media/reference/pradelna/reference-pradelna-03.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/media/reference/pradelna/reference-pradelna-03.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-p2b-web-hm-building-Wh1t3mane/media/reference/pradelna/reference-pradelna-04.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/media/reference/pradelna/reference-pradelna-04.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-p2b-web-hm-building-Wh1t3mane/media/reference/pradelna/reference-pradelna-05.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/media/reference/pradelna/reference-pradelna-05.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-p2b-web-hm-building-Wh1t3mane/media/reference/reference-hasicska-zbrojnice-600w.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/reference/reference-hasicska-zbrojnice-600w.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-p2b-web-hm-building-Wh1t3mane/media/reference/reference-plocha-600w.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/reference/reference-plocha-600w.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-p2b-web-hm-building-Wh1t3mane/media/reference/reference-pradelna-600w.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/reference/reference-pradelna-600w.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-p2b-web-hm-building-Wh1t3mane/media/sluzba-komunikace-a-zpevnene-plochy-1200w.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/sluzba-komunikace-a-zpevnene-plochy-1200w.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-p2b-web-hm-building-Wh1t3mane/media/sluzba-novostavby-1200w.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/sluzba-novostavby-1200w.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-p2b-web-hm-building-Wh1t3mane/media/sluzba-prumyslove-stavby-1920w.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/sluzba-prumyslove-stavby-1920w.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022-p2b-web-hm-building-Wh1t3mane/media/sluzba-rekonstrukce-1920w.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/sluzba-rekonstrukce-1920w.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Readme" beforeDir="false" afterPath="$PROJECT_DIR$/Readme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/normalize.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/normalize.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +71,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/2022-p2b-web-hm-building-Wh1t3mane" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -30,17 +82,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/Wh1t3/OneDrive - SPŠSE a VOŠ, Liberec/2. ročník/WEB/Figma/Github",
-    "list.type.of.created.stylesheet": "CSS",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/TADA1/OneDrive - SPŠSE a VOŠ, Liberec/2. ročník/WEB/Figma/Github&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -50,6 +103,12 @@
       <option name="presentableId" value="Default" />
       <updated>1673604754234</updated>
       <workItem from="1673604755883" duration="1478000" />
+      <workItem from="1673942602239" duration="20000" />
+      <workItem from="1674126293325" duration="5095000" />
+      <workItem from="1674152401617" duration="9233000" />
+      <workItem from="1674161746654" duration="127000" />
+      <workItem from="1674161879742" duration="14000" />
+      <workItem from="1674162166710" duration="1804000" />
     </task>
     <task id="LOCAL-00001" summary="Start">
       <created>1673605054749</created>
