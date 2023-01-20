@@ -1,14 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 
 :root {
+    --orange: #eb6c27;
+    --white: #fff;
+}
 
+* {
+  font-family: 'Open Sans', sans-serif;
 }
 
 .hero {
-    height: 100vh;
+    /*height: 100vh;
+    background-image: url(../media/pageheader-1920w.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;*/
 }
 
 header {
-    background-color: orange;
+
 }
 
 .nav {
@@ -31,6 +41,7 @@ header {
 .img-fluid {
     max-width: 100%;
     height: auto;
+    padding-top: 15px;
 }
 
 /*.nav__menu {
@@ -88,7 +99,7 @@ i {
 
 i.close {
     display: none;
-    margin-top: -2.5em;
+    /*margin-top: -2.5em;*/
 }
 
 i.menu {
@@ -115,6 +126,10 @@ i.menu {
 
 #nav__checkbox:checked ~ label.nav__toggle .menu {
     display: none;
+}
+
+#nav__checkbox:checked ~ .nav__menu {
+    right: 0;
 }
 /*.open-menu , .close-menu {
     display: none;
@@ -159,6 +174,42 @@ i.menu {
         right: 0;
     }
 }
+
+/*
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}*/
+
+.hero__description {
+    text-align: center;
+    background-image: url(../media/pageheader-1920w.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 20vh;
+}
+
+.hero__description h1, h2, span {
+    color: white;
+}
+
+.hero__description h1 {
+    font-weight: 800;
+}
+
+.hero__description > span {
+    display: none;
+}
+
+.img__hero {
+
+}
+
+/* =================================================================
+SLUŽBY
+/* ================================================================= */
 
 
 
