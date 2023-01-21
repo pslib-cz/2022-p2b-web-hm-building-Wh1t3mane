@@ -9,6 +9,20 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+section {
+    max-width: 900px;
+    margin: auto;
+    padding: 0 20px;/*1em*/
+}
+
+.section--margin {
+    margin-top: 55px;/*4em*/
+}
+
+.hero {
+    padding: 0 !important;
+}
+
 .hero {
     /*height: 100vh;
     background-image: url(../media/pageheader-1920w.jpg);
@@ -182,24 +196,47 @@ i.menu {
     justify-content: space-between;
 }*/
 
-.hero__description {
+.hero-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     text-align: center;
-    background-image: url(../media/pageheader-1920w.jpg);
+    position: relative;
+    background-image: url(../media/pageheader-3100w.jpg);
     background-position: center;
-    background-size: cover;
     background-repeat: no-repeat;
-    height: 20vh;
+    height: 30vh;
+    background-size: 180%;
 }
 
-.hero__description h1, h2, span {
+.hero-description__text {
+    position: relative;
+}
+
+.hero-description::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.45);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.hero-description__text {
     color: white;
 }
 
-.hero__description h1 {
+.hero-description__text h1 {
     font-weight: 800;
 }
 
-.hero__description > span {
+.hero-description__text h3 {
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.hero-description__text > span {
     display: none;
 }
 
@@ -211,5 +248,29 @@ i.menu {
 SLUŽBY
 /* ================================================================= */
 
+.service-description {
+    margin-bottom: 80px;
+}
 
+.service-description h2 {
+    font-size: 22px;
+    font-weight: bold;
+}
+.orange {
+    color: var(--orange);
+}
+
+.img-service {
+    height: 134px;
+    width: 100%;
+    background-size: cover;
+}
+
+.img--right-corner {
+    border-radius: 0px 0px 40px 0px;
+}
+
+.img--left-corner {
+    border-radius: 0px 0px 0px 20px;
+}
 
