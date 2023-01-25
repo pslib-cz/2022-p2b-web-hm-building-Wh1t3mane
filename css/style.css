@@ -263,7 +263,7 @@ SLUŽBY
 .img-service {
     height: 134px;
     width: 100%;
-    background-size: cover;
+    object-fit: cover;
 }
 
 .img--right-corner {
@@ -272,5 +272,103 @@ SLUŽBY
 
 .img--left-corner {
     border-radius: 0px 0px 0px 20px;
+}
+
+.service__content > div {
+    margin-bottom: 40px;
+}
+
+.service__text {
+    padding-bottom: 18px;
+}
+
+span.service-btn {
+    padding: 12px 40px;
+    border: 2px dashed var(--orange);
+    gap: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: var(--orange);
+}
+
+.service__text--padding {
+    padding-bottom: 18px;
+}
+
+@media (min-width: 1200px) {
+    section.hero {
+        height: 95vh;
+        background-image: url(../media/pageheader-1920w.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    header {
+        margin: 43px 205px 0 205px;
+    }
+
+    .hero::before {
+        content: "";
+        background: rgba(0, 0, 0, 0.45);
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+
+    header {
+        background-color: var(--white);
+    }
+
+    .hero-description {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        text-align: center;
+        position: relative;
+        background-image: none;
+    }
+
+    .hero__div-without {
+        display: none;
+    }
+
+    .service__novostavby, .service__prumyslove-stavby, .service__rekonstrukce, .service__komunikace {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px;
+        gap: 100px;
+    }
+
+    .prumyslove-stavby--reverse, .komunikace--reverse {
+        flex-direction: row-reverse;
+    }
+
+    .img-service {
+        height: 307px;
+        width: 729px;
+    }
+
+    section {
+        max-width: none;
+        margin: auto;
+        padding: 0 205px;
+    }
+
+    .service__text {
+        max-width: 682px;
+    }
+
+    .service__text > .service__text--padding > h3 {
+        text-transform: uppercase;
+    }
 }
 
