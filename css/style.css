@@ -3,6 +3,9 @@
 :root {
     --orange: #eb6c27;
     --white: #fff;
+    --grey: rgba(58, 58, 58, 1);
+    --grey-hero: rgba(36, 36, 36, 0.4);
+    --black-cta: rgba(36, 36, 36, 0.8);
 }
 
 * {
@@ -18,6 +21,26 @@ section {
 .section--margin {
     margin-top: 55px;/*4em*/
 }
+
+.text--decoration {
+    text-decoration: none;
+}
+
+@media (min-width: 1200px) {
+    .section--margin {
+        margin-top: 150px;
+    }
+
+    section {
+        max-width: none;
+        margin: auto;
+        padding: 0 205px;
+    }
+}
+
+/* =================================================================
+Hero
+/* ================================================================= */
 
 .hero {
     padding: 0 !important;
@@ -83,7 +106,6 @@ header {
 
 .nav__menu li a {
     display: inline-block;
-    text-decoration: none;
     text-align: center;
     text-transform: uppercase;
 }
@@ -213,6 +235,7 @@ i.menu {
     position: relative;
 }
 
+
 .hero-description::before {
     content: "";
     background: rgba(0, 0, 0, 0.45);
@@ -236,7 +259,7 @@ i.menu {
     font-size: 20px;
 }
 
-.hero-description__text > span {
+.hero-description > span {
     display: none;
 }
 
@@ -244,8 +267,97 @@ i.menu {
 
 }
 
+@media (min-width: 1200px) {
+    .hero {
+        height: 95vh;
+        background-image: url(../media/pageheader-1920w.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .hero::before {
+         content: "";
+         background: var(--grey-hero);
+         position: absolute;
+         bottom: 0;
+         top: 0;
+         left: 0;
+         right: 0;
+    }
+
+    header {
+        margin: 43px 205px 0 205px;
+        background-color: var(--white);
+        position: relative;
+    }
+
+    .hero-description {
+        position: relative;
+        background-image: none;
+        color: var(--white);
+        padding-bottom: 84px;
+    }
+
+    .hero-description::before {
+        content: "";
+        background: none;
+    }
+
+    .hero-description__text > h1 {
+        font-weight: 800;
+        font-size: 120px;
+        line-height: 16px;
+    }
+
+    .hero-description__text > p {
+        font-weight: 300;
+        font-size: 60px;
+        line-height: 66px;
+    }
+
+    .hero-description__text {
+        padding-bottom: 65px;
+    }
+
+    .hero-btn {
+        padding: 16px 50px;
+        margin: 20px 0;
+        background-color: var(--orange);
+        color: var(--white);
+    }
+
+    .hero-btn a {
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .hero--flex, span.hero-btn {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .hero-description > span {
+        display: block;
+    }
+
+    .hero__div-without {
+        display: none;
+    }
+}
+
 /* =================================================================
-SLUŽBY
+Service
 /* ================================================================= */
 
 .service-description {
@@ -296,53 +408,34 @@ span.service-btn {
     padding-bottom: 18px;
 }
 
+/*
+.service__text > a {
+    text-decoration: none;
+}*/
+
 @media (min-width: 1200px) {
-    section.hero {
-        height: 95vh;
-        background-image: url(../media/pageheader-1920w.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
+    #service {
+        color: var(--grey);
     }
 
-    header {
-        margin: 43px 205px 0 205px;
-    }
-
-    .hero::before {
-        content: "";
-        background: rgba(0, 0, 0, 0.45);
-        position: absolute;
-        bottom: 0;
-        top: 0;
-        left: 0;
-        right: 0;
-    }
-
-
-    header {
-        background-color: var(--white);
-    }
-
-    .hero-description {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
+    .service-description {
         text-align: center;
-        position: relative;
-        background-image: none;
     }
 
-    .hero__div-without {
-        display: none;
+    .service-description > h2 {
+        font-weight: 700;
+        font-size: 60px;
+    }
+
+    .service-description > p {
+        font-weight: 300;
+        font-size: 20px;
     }
 
     .service__novostavby, .service__prumyslove-stavby, .service__rekonstrukce, .service__komunikace {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
         align-items: center;
         padding: 0px;
         gap: 100px;
@@ -357,12 +450,6 @@ span.service-btn {
         width: 729px;
     }
 
-    section {
-        max-width: none;
-        margin: auto;
-        padding: 0 205px;
-    }
-
     .service__text {
         max-width: 682px;
     }
@@ -371,4 +458,220 @@ span.service-btn {
         text-transform: uppercase;
     }
 }
+
+/* =================================================================
+Cta
+/* ================================================================= */
+
+#cta {
+    /*height: 20vh;*/
+}
+
+.cta {
+    background-image: url(../media/background-CTAblock-4460w.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.cta::before {
+    content: "";
+    position: absolute;
+    background: var(--black-cta);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.cta .cta__content  {
+    padding-top: 10px;
+    color: var(--white);
+    position: relative;
+}
+
+.cta__content {
+    padding: 30px 0;
+    text-align: left;
+}
+
+.cta__content--font {
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.cta__text {
+    padding-bottom: 20px;
+}
+
+.cta-btn {
+    padding: 12px 40px;
+    margin: 20px 0;
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+
+@media (min-width: 1200px) {
+    #cta {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        height: 35vh;
+    }
+
+    .cta__content--font {
+        font-weight: 800;
+        font-size: 25px;
+    }
+
+    .cta__content--font > a {
+        font-weight: 600;
+        font-size: 20px;
+    }
+}
+
+/* =================================================================
+Gallery
+/* ================================================================= */
+
+.reference {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--grey)
+}
+
+.item--align {
+    text-align: center;
+}
+
+.reference__text {
+    color: var(--grey)
+}
+
+.reference__text > h2 {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.reference__text > p {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.reference__galerie {
+    padding-bottom: 45px;
+}
+
+.reference-btn {
+    padding: 12px 40px;
+    margin: 20px 0;
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+@media (min-width: 1200px) {
+    .reference__galerie {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-end;
+        gap: 80px;
+    }
+
+    .reference__description {
+        text-align: center;
+    }
+
+    .reference__description > h2 {
+        font-weight: 700;
+        font-size: 60px;
+    }
+    .reference__description > p {
+        font-weight: 300;
+        font-size: 16px;
+    }
+
+}
+
+/* =================================================================
+Footer
+/* ================================================================= */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--orange);
+    text-align: center;
+}
+
+.footer__description {
+    padding: 50px 0;
+}
+
+.footer__text {
+    color: var(--white);
+    padding-bottom: 26px;
+}
+
+.footer__text > h2 {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.footer__text > p {
+    font-weight: 400;
+    font-size: 15px
+}
+
+.footer-btn {
+    padding: 12px 40px;
+    margin: 20px 0;
+    background-color: var(--white);
+    color: var(--orange);
+}
+
+@media (min-width: 1200px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
