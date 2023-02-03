@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b0e2540-55fb-4c93-8a09-0ba1024513e9" name="Changes" comment="Hero#complete-on-mobile, Hero#1  Service#3">
-      <change afterPath="$PROJECT_DIR$/css/style-keep-gallery.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/style-keep.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hasicska-zbrojnice.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kontakt.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/novostavby.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/o-nas.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reference.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/samoobsluzna-pradelna.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venkovni-plochy.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme" beforeDir="false" afterPath="$PROJECT_DIR$/Readme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="7b0e2540-55fb-4c93-8a09-0ba1024513e9" name="Changes" comment="Hero#complete-on-mobile, Hero#1  Service#3" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,7 +73,7 @@
       <workItem from="1675266957589" duration="5511000" />
       <workItem from="1675356760749" duration="1239000" />
       <workItem from="1675418503696" duration="12711000" />
-      <workItem from="1675447136345" duration="7011000" />
+      <workItem from="1675447136345" duration="7620000" />
     </task>
     <task id="LOCAL-00001" summary="Start">
       <created>1673605054749</created>
