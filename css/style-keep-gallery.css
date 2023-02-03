@@ -10,7 +10,7 @@
 }
 
 * {
-  font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 section {
@@ -20,7 +20,7 @@ section {
 }
 
 .section--margin {
-    margin-top: 55px;/*4em*/
+    margin-top: 100px;/*4em*/
 }
 
 .text--decoration {
@@ -182,11 +182,11 @@ menu::after {
 
     .active {
         font-weight: bolder;
-        background-color: var(--grey);
+        background-color: #666;
     }
 
     .active, .nav-item:hover {
-        background-color: var(--grey);
+        background-color: #666;
         font-weight: bolder;
     }
 
@@ -261,12 +261,6 @@ menu::after {
         color: var(--white) !important;
     }
 
-    /*
-    .nav-item-li > .nav-item {
-        font-weight: bolder;
-        color: var(--white) !important;
-    }*/
-
     .nav__menu a{
         color: var(--grey);
     }
@@ -337,15 +331,10 @@ Hero
     display: none;
 }
 
-.img__hero {
-
-}
-
 @media (min-width: 1200px) {
     .hero {
-        height: 95vh;
+        height: 15vh;
         background-image: url(../media/pageheader-1920w.jpg);
-        background-attachment: fixed;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -359,13 +348,13 @@ Hero
     }
 
     .hero::before {
-         content: "";
-         background: var(--grey-hero);
-         position: absolute;
-         bottom: 0;
-         top: 0;
-         left: 0;
-         right: 0;
+        content: "";
+        background: var(--grey-hero);
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
     }
 
     header {
@@ -379,10 +368,6 @@ Hero
         background-image: none;
         color: var(--white);
         padding-bottom: 84px;
-    }
-
-    .hero-description > a {
-        display: flex;
     }
 
     .hero-description::before {
@@ -435,329 +420,106 @@ Hero
     }
 }
 
-/* =================================================================
-Service
-/* ================================================================= */
-
-.service-description {
-    margin-bottom: 80px;
-}
-
-.service-description h2 {
-    font-size: 22px;
-    font-weight: bold;
-}
-.orange {
-    color: var(--orange);
-}
-
-.img-service {
-    height: 134px;
-    width: 100%;
-    object-fit: cover;
-}
-
-.img--right-corner {
-    border-radius: 0px 0px 40px 0px;
-}
-
-.img--left-corner {
-    border-radius: 0px 0px 0px 20px;
-}
-
-.service__content > div {
-    margin-bottom: 40px;
-}
-
-.service__text {
-    padding-bottom: 18px;
-}
-
-span.service-btn {
-    padding: 12px 40px;
-    border: 2px dashed var(--orange);
-    gap: 10px;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 17px;
-    color: var(--orange);
-}
-
-.service__text--padding {
-    padding-bottom: 18px;
-}
-
-/*
-.service__text > a {
-    text-decoration: none;
-}*/
-
-@media (min-width: 1200px) {
-    #service {
-        color: var(--grey);
-    }
-
-    .service-description {
-        text-align: center;
-    }
-
-    .service-description > h2 {
-        font-weight: 700;
-        font-size: 60px;
-    }
-
-    .service-description > p {
-        font-weight: 300;
-        font-size: 20px;
-    }
-
-    .service__novostavby, .service__prumyslove-stavby, .service__rekonstrukce, .service__komunikace {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0px;
-        gap: 100px;
-    }
-
-    .prumyslove-stavby--reverse, .komunikace--reverse {
-        flex-direction: row-reverse;
-    }
-
-    .img-service {
-        height: 307px;
-        width: 729px;
-    }
-
-    .service__text {
-        max-width: 682px;
-    }
-
-    .service__text > .service__text--padding > h3 {
-        text-transform: uppercase;
-    }
-}
 
 /* =================================================================
-Cta
+Reference - gallery
 /* ================================================================= */
-
-#cta {
-    /*height: 20vh;*/
-}
-
-.cta {
-    background-image: url(../media/background-CTAblock-4460w.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-}
-
-.cta::before {
-    content: "";
-    position: absolute;
-    background: var(--black-cta);
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-}
-
-.cta .cta__content  {
-    padding-top: 10px;
-    color: var(--white);
-    position: relative;
-}
-
-.cta__content {
-    padding: 30px 0;
-    text-align: left;
-}
-
-.cta__content--font {
-    font-weight: 700;
-    font-size: 17px;
-}
-
-.cta__text {
-    padding-bottom: 20px;
-}
-
-.cta-btn {
-    padding: 12px 40px;
-    margin: 20px 0;
-    background-color: var(--orange);
-    color: var(--white);
-}
-
-
-@media (min-width: 1200px) {
-    #cta {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: flex-start;
-        height: 35vh;
-    }
-
-    .cta__content--font {
-        font-weight: 800;
-        font-size: 25px;
-    }
-
-    .cta__content--font > a {
-        font-weight: 600;
-        font-size: 20px;
-    }
-}
-
-/* =================================================================
-Gallery
-/* ================================================================= */
-
 .reference {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: var(--grey)
+    color: var(--grey);
 }
 
-.item--align {
-    text-align: center;
-}
-
-.reference__text {
-    color: var(--grey)
-}
-
-.reference__text > h2 {
+.reference > h2 {
     font-weight: 700;
-    font-size: 22px;
+    font-size: 30px;
 }
 
-.reference__text > p {
-    font-weight: 600;
-    font-size: 15px;
-}
-
-.reference__galerie {
-    padding-bottom: 45px;
-}
-
-.reference-btn {
-    padding: 12px 40px;
-    margin: 20px 0;
-    background-color: var(--orange);
-    color: var(--white);
+.reference > p {
+    text-align: left;
 }
 
 @media (min-width: 1200px) {
     .reference__galerie {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        gap: 80px;
-        margin-top: 4em;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 25px;
+        grid-auto-flow: dense;
     }
 
-    .reference__description {
-        text-align: center;
-    }
-
-    .reference__description > h2 {
+    .reference > h2 {
         font-weight: 700;
-        font-size: 60px;
-    }
-    .reference__description > p {
-        font-weight: 300;
-        font-size: 16px;
-    }
-
-    .reference--container {
-        position: relative;
-    }
-
-    .reference-image {
-        opacity: 1;
-        display: block;
-        width: 100%;
-        height: auto;
-        transition: .5s ease;
-        backface-visibility: hidden;
-    }
-
-    .reference-image__overlay {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        opacity: 0;
-        transition: opacity 0.8s;
-    }
-
-    .reference-image__overlay:hover {
-        opacity: 0.9;
-        background: var(--orange);
-        color: var(--white);
-    }
-
-    .reference-image__overlay:hover > .image__title {
-        opacity: 1;
-        font-size: 25px;
-        font-weight: bolder;
-    }
-
-    .reference-image__overlay:hover > .image__description {
-        opacity: 1;
-        font-size: 15px;
-    }
-
-    .reference--container > .img-fluid {
-        padding-top: 0;
-    }
-
-    /*
-    .reference__text {
-        transition: .5s ease;
-        opacity: 0;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
+        font-size: 50px;
         text-align: center;
-    }*/
-    /*
-    .reference--container:hover {
-        background-color: var(--orange);
     }
 
-    .reference--container:hover .reference-image {
-        opacity: 0.3;
+    .reference > p {
+        text-align: center;
     }
+}
 
-    .reference--container:hover .reference__text {
-        opacity: 1;
-    }
+/* =================================================================
+Hasicska Zbrojnice
+/* ================================================================= */
 
-    .text {
-        background-color: #04AA6D;
-        color: white;
-        font-size: 16px;
-        padding: 16px 32px;
-    }
+.zbrojnice-item-1 {
+    grid-row-start: 6;
+    grid-column-start: 2;
+}
 
-    .reference--container > .img-fluid {
-        padding-top: 0;
-    }*/
+.zbrojnice-item-4 {
+    grid-row-start: 2;
+    grid-column-start: 3;
+}
+
+.zbrojnice-item-5 {
+    grid-row-start: 3;
+    grid-column-start: 2;
+}
+
+.zbrojnice-item-6 {
+    grid-row-start: 4;
+    grid-column-start: 1;
+}
+
+.zbrojnice-item-7 {
+    grid-row-start: 4;
+    grid-column-start: 3;
+}
+
+.zbrojnice-item-8 {
+    grid-row-start: 5;
+    grid-column-start: 3;
+}
+
+.zbrojnice-item-11 {
+    grid-row-start: 1;
+    grid-column-start: 1;
+}
+
+.zbrojnice-item-12 {
+    grid-row-start: 1;
+    grid-column-start: 3;
+}
+
+.zbrojnice-item-14 {
+    grid-row-start: 3;
+    grid-column-start: 1;
+}
+
+.zbrojnice-item-16 {
+    grid-row: span 3;
+}
+
+/* =================================================================
+Samoobsluzna pradelna
+/* ================================================================= */
+
+.pradelna-item-4 {
+    grid-row-start: 4;
+    grid-column-start: 1;
+}
+
+.pradelna-item-5 {
+    grid-row: span 3;
 }
 
 /* =================================================================
@@ -816,39 +578,3 @@ Footer
     font-size: 18px;
     color: var(--black);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
