@@ -9,11 +9,11 @@
     --black: #000000;
 }
 
-* {
+html {
     font-family: 'Open Sans', sans-serif;
 }
 
-section {
+.section--size {
     max-width: 900px;
     margin: auto;
     padding: 0 20px;/*1em*/
@@ -28,14 +28,14 @@ section {
 }
 
 @media (min-width: 1200px) {
-    .section--margin {
-        margin-top: 150px;
-    }
-
-    section {
+    .section--size {
         max-width: none;
         margin: auto;
         padding: 0 205px;
+    }
+
+    .section--margin {
+        margin-top: 150px;
     }
 }
 
@@ -218,6 +218,7 @@ menu::after {
         top: auto;
         margin: unset;
         padding: 0;
+        max-height: 100px;
     }
 
 
@@ -231,22 +232,33 @@ menu::after {
 
     .nav {
         align-items: center;
+        height: 100px;
     }
 
     .nav__menu > li.nav-item-li--margin {
         margin-right: 0;
     }
 
-    .nav__menu li {
-        padding: 30px 15px 30px 15px;
+    .nav__menu > li > a  {
+        padding: 40px 15px 40px 15px;/*padding: 30px 15px 30px 15px;*/
     }
 
-    .active-li {
+    /*.active-li {
+        font-weight: bolder;
+        background-color: var(--orange);
+    }*/
+
+    .active {
         font-weight: bolder;
         background-color: var(--orange);
     }
 
-    .active-li, .nav-item-li:hover {
+    /*.active-li, .nav-item-li:hover {
+        background-color: var(--orange);
+        font-weight: bolder;
+    }*/
+
+    .active, .nav-item:hover {
         background-color: var(--orange);
         font-weight: bolder;
     }
@@ -358,7 +370,7 @@ Hero
     }
 
     header {
-        margin: 43px 205px 0 205px;
+        margin: 20px 205px 0 205px;
         background-color: var(--white);
         position: relative;
     }
@@ -447,7 +459,7 @@ Reference - gallery
 
     .reference > h2 {
         font-weight: 700;
-        font-size: 50px;
+        font-size: 3.125rem;
         text-align: center;
     }
 
@@ -544,14 +556,22 @@ Footer
     padding-bottom: 26px;
 }
 
+/*
 .footer__text > h2 {
     font-weight: 700;
     font-size: 22px;
+}*/
+
+/*NEW-START*/
+.footer__text > .p--big {
+    font-weight: 700;
+    font-size: 1.5rem;
 }
+/*NEW-END*/
 
 .footer__text > p {
     font-weight: 400;
-    font-size: 15px
+    font-size: 0.938rem;
 }
 
 .footer-btn {
@@ -562,19 +582,33 @@ Footer
 }
 
 @media (min-width: 1200px) {
-    .footer__text > h2 {
+    /*.footer__text > h2 {
+      font-weight: 700;
+      font-size: 60px;
+    }*/
+
+    .footer__text > .p--big {
         font-weight: 700;
-        font-size: 60px;
+        font-size: 3.75rem;
     }
 
     .footer__text > p {
         font-weight: 400;
-        font-size: 25px
+        font-size: 1.563rem;
     }
 }
 
 .copyright {
+    display: flex;
+    align-items: center;
+    background: var(--black);
+    color: var(--white);
+    height: 2em;
+}
+
+.copyright__text {
     font-weight: bolder;
-    font-size: 18px;
-    color: var(--black);
+    font-size: 1.1rem;
+    padding: 0;
+    margin: 0;
 }

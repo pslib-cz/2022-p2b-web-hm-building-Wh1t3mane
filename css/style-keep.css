@@ -9,11 +9,11 @@
     --black: #000000;
 }
 
-* {
+html {
     font-family: 'Open Sans', sans-serif;
 }
 
-section {
+.section--size {
     max-width: 900px;
     margin: auto;
     padding: 0 20px;/*1em*/
@@ -28,14 +28,14 @@ section {
 }
 
 @media (min-width: 1200px) {
-    .section--margin {
-        margin-top: 150px;
-    }
-
-    section {
+    .section--size {
         max-width: none;
         margin: auto;
         padding: 0 205px;
+    }
+
+    .section--margin {
+        margin-top: 150px;
     }
 }
 
@@ -218,6 +218,7 @@ menu::after {
         top: auto;
         margin: unset;
         padding: 0;
+        max-height: 100px;
     }
 
 
@@ -231,22 +232,33 @@ menu::after {
 
     .nav {
         align-items: center;
+        height: 100px;
     }
 
     .nav__menu > li.nav-item-li--margin {
         margin-right: 0;
     }
 
-    .nav__menu li {
-        padding: 30px 15px 30px 15px;
+    .nav__menu > li > a  {
+        padding: 40px 15px 40px 15px;/*padding: 30px 15px 30px 15px;*/
     }
 
-    .active-li {
+    /*.active-li {
+        font-weight: bolder;
+        background-color: var(--orange);
+    }*/
+
+    .active {
         font-weight: bolder;
         background-color: var(--orange);
     }
 
-    .active-li, .nav-item-li:hover {
+    /*.active-li, .nav-item-li:hover {
+        background-color: var(--orange);
+        font-weight: bolder;
+    }*/
+
+    .active, .nav-item:hover {
         background-color: var(--orange);
         font-weight: bolder;
     }
@@ -358,7 +370,7 @@ Hero
     }
 
     header {
-        margin: 43px 205px 0 205px;
+        margin: 20px 205px 0 205px;
         background-color: var(--white);
         position: relative;
     }
@@ -424,25 +436,25 @@ Hero
 Novostavby - Sluzby
 /* ================================================================= */
 
-.novostavby {
+.sluzby {
     color: var(--grey);
 }
 
-.novostavby > h2 {
+.sluzby > h2 {
     font-weight: 700;
     font-size: 30px;
 }
 
-.novostavby > p {
+.sluzby > p {
     text-align: left;
 }
 
-.novostavby ul {
+.sluzby ul {
     list-style: none;
     padding: 0;
 }
 
-.novostavby ul > li::before {
+.sluzby ul > li::before {
     content: "\2022 ";
     display: inline-block;
     font-weight: bolder;
@@ -451,7 +463,7 @@ Novostavby - Sluzby
     padding-right: 12px;
 }
 
-.novostavby ul > li {
+.sluzby ul > li {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -459,22 +471,37 @@ Novostavby - Sluzby
 }
 
 @media (min-width: 1200px) {
-    .novostavby > h2 {
+    .sluzby > h2 {
         font-weight: 700;
         font-size: 60px;
         text-align: center;
     }
 
-    .novostavby > p {
+    .sluzby > p {
         text-align: left;
         max-width: 65%;
     }
 
-    .novostavby ul {
+    .sluzby ul {
         list-style: none;
         padding-left: 40px;
     }
+
+    .sluzby > .p_komunikace {
+        max-width: 100%;
+    }
 }
+
+.ul_prumyslove-stavby ul {
+    list-style: none;
+    padding-left: 40px;
+}
+
+.p--bold {
+    font-weight: 700;
+}
+
+
 
 /* =================================================================
 O nas
@@ -843,10 +870,18 @@ Footer
     padding-bottom: 26px;
 }
 
+/*
 .footer__text > h2 {
     font-weight: 700;
     font-size: 22px;
+}*/
+
+/*NEW-START*/
+.footer__text > .p--big {
+    font-weight: 700;
+    font-size: 1.5rem;
 }
+/*NEW-END*/
 
 .footer__text > p {
     font-weight: 400;
@@ -861,9 +896,14 @@ Footer
 }
 
 @media (min-width: 1200px) {
-    .footer__text > h2 {
+    /*.footer__text > h2 {
+      font-weight: 700;
+      font-size: 60px;
+    }*/
+
+    .footer__text > .p--big {
         font-weight: 700;
-        font-size: 60px;
+        font-size: 3.75rem;
     }
 
     .footer__text > p {
@@ -873,7 +913,16 @@ Footer
 }
 
 .copyright {
+    display: flex;
+    align-items: center;
+    background: var(--black);
+    color: var(--white);
+    height: 2em;
+}
+
+.copyright__text {
     font-weight: bolder;
-    font-size: 18px;
-    color: var(--black);
+    font-size: 1.1rem;
+    padding: 0;
+    margin: 0;
 }

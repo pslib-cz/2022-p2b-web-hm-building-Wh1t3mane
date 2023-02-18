@@ -9,11 +9,11 @@
     --black: #000000;
 }
 
-* {
+html {
   font-family: 'Open Sans', sans-serif;
 }
 
-section {
+.section--size {
     max-width: 900px;
     margin: auto;
     padding: 0 20px;/*1em*/
@@ -28,14 +28,14 @@ section {
 }
 
 @media (min-width: 1200px) {
-    .section--margin {
-        margin-top: 150px;
-    }
-
-    section {
+    .section--size {
         max-width: none;
         margin: auto;
         padding: 0 205px;
+    }
+
+    .section--margin {
+        margin-top: 150px;
     }
 }
 
@@ -218,6 +218,7 @@ menu::after {
         top: auto;
         margin: unset;
         padding: 0;
+        max-height: 100px;
     }
 
 
@@ -231,22 +232,33 @@ menu::after {
 
     .nav {
         align-items: center;
+        height: 100px;
     }
 
     .nav__menu > li.nav-item-li--margin {
         margin-right: 0;
     }
 
-    .nav__menu li {
-        padding: 30px 15px 30px 15px;
+    .nav__menu > li > a  {
+        padding: 40px 15px 40px 15px;/*padding: 30px 15px 30px 15px;*/
     }
 
-    .active-li {
+    /*.active-li {
+        font-weight: bolder;
+        background-color: var(--orange);
+    }*/
+
+    .active {
         font-weight: bolder;
         background-color: var(--orange);
     }
 
-    .active-li, .nav-item-li:hover {
+    /*.active-li, .nav-item-li:hover {
+        background-color: var(--orange);
+        font-weight: bolder;
+    }*/
+
+    .active, .nav-item:hover {
         background-color: var(--orange);
         font-weight: bolder;
     }
@@ -328,9 +340,18 @@ Hero
     font-weight: 800;
 }
 
+/*NEW-START*/
+.hero-description__text > h1 .h1--small {
+    display: block;
+    padding-top: 10px;
+    font-weight: 300;
+    font-size: 1.25rem;
+}
+/*NEW-END*/
+
 .hero-description__text h3 {
     font-weight: lighter;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .hero-description > a {
@@ -383,6 +404,7 @@ Hero
 
     .hero-description > a {
         display: flex;
+        position: relative;
     }
 
     .hero-description::before {
@@ -392,13 +414,22 @@ Hero
 
     .hero-description__text > h1 {
         font-weight: 800;
-        font-size: 120px;
+        font-size: 7.5rem;
         line-height: 16px;
     }
+    /*NEW-START*/
+    .hero-description__text > h1 .h1--small {
+        display: block;
+        padding-top: 140px;
+        font-weight: 300;
+        font-size: 3.75rem;
+        line-height: 16px;
+    }
+    /*NEW-END*/
 
     .hero-description__text > p {
         font-weight: 300;
-        font-size: 60px;
+        font-size: 3.75rem;
         line-height: 66px;
     }
 
@@ -415,7 +446,7 @@ Hero
 
     .hero-btn a {
         font-weight: 600;
-        font-size: 20px;
+        font-size: 1.25rem;
     }
 
     .hero--flex, span.hero-btn {
@@ -443,10 +474,16 @@ Service
     margin-bottom: 80px;
 }
 
-.service-description h2 {
+/*.service-description h2 {
     font-size: 22px;
     font-weight: bold;
+}*/
+
+.service-description > .p--big  {
+    font-size: 1.5rem;
+    font-weight: bold;
 }
+
 .orange {
     color: var(--orange);
 }
@@ -478,7 +515,7 @@ span.service-btn {
     border: 2px dashed var(--orange);
     gap: 10px;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 0.875rem;
     line-height: 17px;
     color: var(--orange);
 }
@@ -501,14 +538,19 @@ span.service-btn {
         text-align: center;
     }
 
-    .service-description > h2 {
+    /*.service-description > h2 {
         font-weight: 700;
         font-size: 60px;
+    }*/
+
+    .service-description > .p--big  {
+        font-weight: 700;
+        font-size: 3.75rem;
     }
 
     .service-description > p {
         font-weight: 300;
-        font-size: 20px;
+        font-size: 1.25rem;
     }
 
     .service__novostavby, .service__prumyslove-stavby, .service__rekonstrukce, .service__komunikace {
@@ -577,7 +619,7 @@ Cta
 
 .cta__content--font {
     font-weight: 700;
-    font-size: 17px;
+    font-size: 1.063rem;
 }
 
 .cta__text {
@@ -603,12 +645,12 @@ Cta
 
     .cta__content--font {
         font-weight: 800;
-        font-size: 25px;
+        font-size: 1.563rem;
     }
 
     .cta__content--font > a {
         font-weight: 600;
-        font-size: 20px;
+        font-size: 1.25rem;
     }
 }
 
@@ -634,12 +676,12 @@ Gallery
 
 .reference__text > h2 {
     font-weight: 700;
-    font-size: 22px;
+    font-size: 1.375rem;
 }
 
 .reference__text > p {
     font-weight: 600;
-    font-size: 15px;
+    font-size: 0.938rem;
 }
 
 .reference__galerie {
@@ -669,11 +711,11 @@ Gallery
 
     .reference__description > h2 {
         font-weight: 700;
-        font-size: 60px;
+        font-size: 3.75rem;
     }
     .reference__description > p {
         font-weight: 300;
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     .reference--container {
@@ -711,13 +753,13 @@ Gallery
 
     .reference-image__overlay:hover > .image__title {
         opacity: 1;
-        font-size: 25px;
+        font-size: 1.563rem;
         font-weight: bolder;
     }
 
     .reference-image__overlay:hover > .image__description {
         opacity: 1;
-        font-size: 15px;
+        font-size: 0.938rem;
     }
 
     .reference--container > .img-fluid {
@@ -781,15 +823,22 @@ Footer
     color: var(--white);
     padding-bottom: 26px;
 }
-
+/*
 .footer__text > h2 {
     font-weight: 700;
     font-size: 22px;
+}*/
+
+/*NEW-START*/
+.footer__text > .p--big {
+    font-weight: 700;
+    font-size: 1.5rem;
 }
+/*NEW-END*/
 
 .footer__text > p {
     font-weight: 400;
-    font-size: 15px
+    font-size: 1rem;
 }
 
 .footer-btn {
@@ -800,21 +849,35 @@ Footer
 }
 
 @media (min-width: 1200px) {
-    .footer__text > h2 {
+    /*.footer__text > h2 {
         font-weight: 700;
         font-size: 60px;
+    }*/
+
+    .footer__text > .p--big {
+        font-weight: 700;
+        font-size: 3.75rem;
     }
 
     .footer__text > p {
         font-weight: 400;
-        font-size: 25px
+        font-size: 1.5rem;
     }
 }
 
 .copyright {
+    display: flex;
+    align-items: center;
+    background: var(--black);
+    color: var(--white);
+    height: 2em;
+}
+
+.copyright__text {
     font-weight: bolder;
-    font-size: 18px;
-    color: var(--black);
+    font-size: 1.1rem;
+    padding: 0;
+    margin: 0;
 }
 
 
